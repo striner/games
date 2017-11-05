@@ -346,8 +346,8 @@ void SnakeGrow()   //蛇变长
 
 void Score()  //分数显示
 {
-	//句柄 光标位置 分数显示处
-	COORD rd;  //输出坐标
+    //句柄 光标位置 分数显示处
+    COORD rd;  //输出坐标
     rd.X = 55;  //对应第55列
     rd.Y = 8;  //对应第8行
     //COORD cursorPosition = {rd.X, rd.Y};
